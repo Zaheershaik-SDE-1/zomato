@@ -3,10 +3,16 @@ import './App.css';
 import Greet from './Greet';
 import Welcome from './Welcome';
 import Hello from './Hello';
+import Message from './Message';
+import Counter from './Counter';
 
 function App() {
   return (
     <div className="App">
+
+      //practice of state
+      <Message/>
+      <Counter/>
 
       //practice of props using functional components
       <Greet name = "Zaheer Shaik"  heroName = "Superman"><p>
