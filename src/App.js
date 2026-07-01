@@ -5,12 +5,16 @@ import Welcome from './Welcome';
 import Hello from './Hello';
 import Message from './Message';
 import Counter from './Counter';
+import FunctionClick from './FunctionClick';
+import ClassClick from './ClassClick';
 
 function App() {
   return (
     <div className="App">
 
-      //practice of state
+      <FunctionClick/>
+      <ClassClick/>
+      {/* //practice of state
       <Message/>
       <Counter/>
 
@@ -24,7 +28,7 @@ function App() {
       <Welcome name = "Zaheer Shaik"  heroName = "Superman"><p>
         This is children props</p></Welcome>
       <Welcome name = "John Doe"  heroName = "Spiderman"> <button>Click Me</button></Welcome>
-      <Welcome name = "Jane Smith"  heroName = "Wonder Woman" />
+      <Welcome name = "Jane Smith"  heroName = "Wonder Woman" /> */}
 
       
     </div>
